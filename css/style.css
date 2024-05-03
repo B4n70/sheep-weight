@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* =======================================================
 *
@@ -51,13 +44,14 @@ p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 16px;
   color: #848484;
-  font-family: 'Ibarra Real Nova', serif;
-
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 h1, h2, h4, h5, h6 {
   color: #6E85B7;
-    font-family: 'Great Vibes', cursive;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -65,7 +59,8 @@ h1, h2, h4, h5, h6 {
 
 h3{
   color: #6E85B7;
-  font-family: 'Ibarra Real Nova', serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -424,7 +419,6 @@ figure {
 
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -450,7 +444,6 @@ figure {
 
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -637,13 +630,11 @@ figure {
 #fh5co-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
-  font-family: 'Ibarra Real Nova', serif;
 }
 
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;
-  font-family: 'Ibarra Real Nova', serif;
 }
 
 .couple-wrap {
@@ -818,7 +809,6 @@ background-position: center;
 }
 
 .groom-men h3 {
-  font-family: 'Ibarra Real Nova', serif;
   font-size: 18px;
 }
 
@@ -909,7 +899,6 @@ background-position: center;
   margin-bottom: 20px;
   font-weight: 300;
   line-height: 1.5;
-  font-family: 'Ibarra Real Nova', serif;
 }
 
 .fh5co-blog .blog-text h3 a {
