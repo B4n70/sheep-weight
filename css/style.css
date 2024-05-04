@@ -27,7 +27,9 @@ body {
 body.fh5co-offcanvas {
   overflow: hidden;
 }
-
+.form-control{
+  color:#111;
+}
 a {
   color: #6E85B7;
   -webkit-transition: 0.5s, ease;
